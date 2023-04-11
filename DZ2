@@ -1,0 +1,20 @@
+using System;
+
+namespace ConsoleDZ2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            byte step;
+            float result;
+            int carNumber;
+            float travelTime;
+            bool tripFinished;
+            string companyName;
+            int coordinatesX, coordinatesY;
+            double width, longitude;
+            char prefix = 'F';
+        }
+    }
+}
