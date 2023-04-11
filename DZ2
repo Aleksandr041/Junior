@@ -8,13 +8,13 @@ namespace ConsoleDZ2
         {
             byte stepOnMap;
             sbyte result;
-            int carNumber;
+            ushort carNumber;
             float travelTime;
             bool isFinishedTrip;
             string companyName;
-
-            int   coordinatesX;
-            short coordinatesY;
+            uint costTrip;
+            int coordinatesX;
+            int coordinatesY;
 
             double width;
             double longitude;
