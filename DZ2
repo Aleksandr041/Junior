@@ -6,19 +6,19 @@ namespace ConsoleDZ2
     {
         static void Main(string[] args)
         {
-            byte stepOnTheMap;
-            float result;
+            byte stepOnMap;
+            sbyte result;
             int carNumber;
             float travelTime;
             bool isFinishedTrip;
             string companyName;
-            
-            int coordinatesX;
-            int coordinatesY;
-            
+
+            int   coordinatesX;
+            short coordinatesY;
+
             double width;
             double longitude;
-            
+
             char prefix = 'F';
         }
     }
