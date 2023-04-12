@@ -8,13 +8,13 @@ namespace ConsoleDZ5
         {
             string surname = "Петр";
             string name = "Петров";
-            string buffer;
+            string bufferName;
 
             Console.WriteLine("" + surname + " " + name);
 
-            buffer = surname;
+            bufferName = surname;
             surname = name;
-            name = buffer;
+            name = bufferName;
 
             Console.WriteLine("" + surname + " " + name);
         }
