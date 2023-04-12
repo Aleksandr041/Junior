@@ -1,0 +1,22 @@
+using System;
+
+namespace ConsoleDZ5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string surname = "Петр";
+            string name = "Петров";
+            string buffer;
+
+            Console.WriteLine("" + surname + " " + name);
+
+            buffer = surname;
+            surname = name;
+            name = buffer;
+
+            Console.WriteLine("" + surname + " " + name);
+        }
+    }
+}
