@@ -1,0 +1,26 @@
+using System;
+
+namespace ConsoleDZ8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int peopleInQueue; 
+            int waitingHours;
+            int waitingMinutes;
+            int waitingTime = 10;
+            int minutesInHour = 60;
+
+            Console.Write("Введите количество человек в очереди: ");
+            peopleInQueue = Convert.ToInt32(Console.ReadLine());
+
+            waitingMinutes = waitingTime * peopleInQueue;
+            waitingHours   = waitingMinutes / minutesInHour;
+            waitingMinutes = waitingMinutes % minutesInHour;
+
+            Console.Write($"Вы должны отстоять в очереди {waitingHours} часа и {waitingMinutes} минут.");
+
+        }
+    }
+}
